@@ -1,0 +1,30 @@
+audio:
+  sr: 22050
+  mono: true
+  hop_length: 512
+  n_fft: 2048
+  n_mels: 128
+
+onset:
+  threshold: 0.3
+  merge_ms: 40
+  peak_prominence: 0.1
+
+midi:
+  quantize: false
+  quantize_grid: 0.025
+  mapping:
+    kick: 36
+    snare: 38
+    hihat_closed: 42
+    hihat_open: 46
+    tom_low: 45
+    tom_mid: 47
+    tom_high: 50
+    crash: 49
+    ride: 51
+
+model:
+  onset_checkpoint: null
+  classifier_checkpoint: null
+  device: cpu
