@@ -1,0 +1,9 @@
+numpy>=1.23
+scipy>=1.8
+librosa>=0.9
+soundfile>=0.11
+PyYAML>=6.0
+mido>=1.2
+torch>=1.12
+torchaudio>=0.12
+pytest>=7.0
